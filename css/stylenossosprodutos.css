@@ -20,22 +20,22 @@
     background-position: center;
 }
 #kaiak{
-    background-image: url(/img/kaiak.jpg);
+    background-image: url(../img/kaiak.jpg);
 }
 #essencial{
-    background-image: url(/img/Essencial.png);
+    background-image: url(../img/Essencial.png);
 }
 #ekos{
-    background-image: url(/img/Ekos.jpg);
+    background-image: url(../img/Ekos.jpg);
 }
 #tododia{
-    background-image: url(/img/Tododia.jpg);
+    background-image: url(../img/Tododia.jpg);
 }
 #choronos{
-    background-image: url(/img/Chronos.jpg);
+    background-image: url(../img/Chronos.jpg);
 }
 #biografia{
-    background-image: url(/img/Biografia.jpg);
+    background-image: url(../img/Biografia.jpg);
 }
 
 .teste h2{
