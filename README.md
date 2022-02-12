@@ -1,2 +1,2 @@
 # natura_eject.github.io
-Site institucional destinado ao procempre beta 2022.1
+Site institucional destinado ao prosempre beta 2022.1
