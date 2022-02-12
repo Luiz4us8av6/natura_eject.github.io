@@ -1,0 +1,80 @@
+#nossosprodutos{
+    height: 100%;
+    background: #F9F9F9; 
+    padding-bottom: 10%;
+}
+
+#nossosprodutos h1{
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+#kaiak{
+    background-image: url(/img/kaiak.jpg);
+}
+#essencial{
+    background-image: url(/img/Essencial.png);
+}
+#ekos{
+    background-image: url(/img/Ekos.jpg);
+}
+#tododia{
+    background-image: url(/img/Tododia.jpg);
+}
+#choronos{
+    background-image: url(/img/Chronos.jpg);
+}
+#biografia{
+    background-image: url(/img/Biografia.jpg);
+}
+
+.teste h2{
+    color: white;
+    
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flex > div{
+    height: 30vh;
+    flex: 1 1 200px;
+    margin: 10px;
+    align-items: center;   
+}
+
+#nossosprodutos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.escurecer{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:500px){
+
+    #nossosprodutos h1{
+        font-size: 2rem;
+    }
+
+}

@@ -1,0 +1,62 @@
+#contatos{
+    height: 100vh;
+    display: flex;
+    background: #F9F9F9;
+}
+#contatos div{
+    width: 50%;
+    height: 100vh;
+}
+#contatos h1{
+    color: black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contatos div{
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.field{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+textarea{
+    height: 200px;
+    width: 100%;
+    resize: none;
+    border: none;
+    border-bottom: solid 1px;
+    background: #F9F9F9;
+}
+input{
+    border: none;
+    border-bottom: solid 1px;
+    background: none;
+}
+form h2{
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+@media(max-width:540px){
+    #contatos{
+        display: block;
+    }
+    #contatos div{
+        width: 100%;
+    }
+    #mapa{
+        display: none;
+    }
+    #contatos{
+        height: 100%;
+    }
+   
+    
+}

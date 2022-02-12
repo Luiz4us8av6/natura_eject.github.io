@@ -1,0 +1,46 @@
+
+#contatenos{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: white;
+        background-image: url(/img/capa2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+#escurecerfundo{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+#contatenos h1{
+    color: white;
+    font-size: 2vmax;
+    line-height: 6vmin;
+    z-index: 80;
+    position: relative;
+}
+.button{
+    background: none;
+    border: solid white 2px;
+    padding: 10px 20px;
+    color: white;
+    margin-left: 3%;
+    z-index: 80;
+    position: relative;
+}
+@media(max-width:500px){
+    #contatenos h1{
+        font-size: 2rem;
+        
+        line-height: 10vmin;
+        margin-bottom: 2%;
+    }
+    
+}

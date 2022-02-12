@@ -1,0 +1,119 @@
+#sectionquemsomos{
+    height: 100vh;
+    background: #F9F9F9;
+    display: flex;
+}
+
+#sectionquemsomos div{
+    width: 50%;
+}
+#sectionquemsomos h1{
+    color: black;
+    font-size: 3rem;
+}
+#textosquemsomos{
+    display: flex;
+    align-items: center;
+}
+#textosquemsomos div{
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    text-align: justify;
+}
+#contenherfotosquemsomos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;
+}
+#fotoquemsomosesquerda{
+    background-image: url(/img/fotoquemsomos.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:70%;
+    width:30%;
+    color:white;
+    margin-right: 1%;
+}
+#fotoquemsomosdireita{
+    background-image: url(/img/sustentabilidade.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 70%;
+    width: 70%;
+    color: white;
+}
+#contenherfotosquemsomos h2{
+    padding: 2%;
+}
+#divbutao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+#divbutao a{
+    color: #f93;
+}
+
+.butao{
+    margin: 0px;
+    padding: 10px;
+    background: none;
+    border:solid #f93 1px;
+   
+    
+}
+
+@media(max-width:500px){
+    #contenherfotosquemsomos{
+        display: none;
+    }
+    #sectionquemsomos{
+        display: block;
+        padding-top: 10%;
+        height: 100%;
+    }
+    #sectionquemsomos div{
+        width: 100%;
+    }
+    #textosquemsomos div{
+        padding: 0%;
+    }
+    #textosquemsomos h1{
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 2rem;
+    }
+    #contenherfotosquemsomos{
+        height: 50%;
+    }
+    #textosquemsomos p{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #textosquemsomos button{
+        text-align: center;
+    }
+    
+}
+
+summary{
+    font-size: 1rem;
+    color: #f93;
+}
+details{
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+#textosquemsomos p{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
