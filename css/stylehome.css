@@ -1,6 +1,6 @@
 #home{
     height: 100vh;
-    background-image: url(/img/capa.jpg);
+    background-image: url(../img/capa.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;
